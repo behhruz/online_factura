@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+}
+.Box2{
+    flex-direction: column;
+}
