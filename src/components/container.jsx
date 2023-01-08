@@ -16,7 +16,7 @@ class Container extends React.Component {
           </div>
           <div className="Box2">
             <Navbar />
-            <Page />
+            <Page/>
           </div>
         </div>
       </>

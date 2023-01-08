@@ -7,7 +7,7 @@ const Wrap = styled.div`
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  width: 82vw;
+  width: 84vw;
   height: 80px;
   box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.08);
 `;
