@@ -172,7 +172,15 @@ class Page extends React.Component {
               <Buiton>Подписать</Buiton>
               <Buiton>Отменить</Buiton>
             </Bigcon1>
-            <Bigcon2></Bigcon2>
+            <Bigcon2>
+              <Buiton action>Назад</Buiton>
+              <p style={{margin:'0 8px', color:'#2B63C0'}}>1</p>
+              <p style={{margin:'0 8px'}}>2</p>
+              <p style={{margin:'0 8px'}}>3</p>
+              <p style={{margin:'0 8px'}}>...</p>
+              <p style={{margin:'0 8px'}}>16</p>
+              <Buiton action>Следующая</Buiton>
+            </Bigcon2>
           </Bigcon>
         </Wrap>
       </>

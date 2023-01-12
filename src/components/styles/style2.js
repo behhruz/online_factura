@@ -14,7 +14,8 @@ const Wrap = styled.div`
 const Box2 = styled.div`
   display: flex;
   align-items: center;
-  width: 40vw;
+  /* width: 40vw; */
+  margin: 0 25px;
 `;
 const Kashel = styled.div`
   width: 35px;
@@ -93,7 +94,7 @@ const Images = styled.img`
 const IMage8 = styled.div`
   display: flex;
   align-items: center;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 `;
 export {
   Wrap,

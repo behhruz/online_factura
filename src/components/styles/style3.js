@@ -194,13 +194,20 @@ const Items1 = styled.p`
 const Bigcon = styled.div`
   margin: 0 14px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 const Bigcon1 = styled.div``;
-const Bigcon2 = styled.div``;
+const Bigcon2 = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
 const Buiton = styled.button`
   background-color: #2b63c0;
   border-radius: 8px;
   width: 120px;
+  width: ${({ action }) => action && "100px"};
   height: 35px;
   border: none;
   color: white;
